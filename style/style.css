@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4 {
+    padding: 0;
+    margin: 0;
+}
+ul,ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.top-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.tel-links{
+    color: whitesmoke;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+header{
+background: black;
+}
+
