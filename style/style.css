@@ -30,8 +30,18 @@ a {
     font-weight: 800;
     line-height: 38px;
     text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
 }
 header{
 background: black;
+}
+.logos {
+    padding: 24px;
+    display: flex;
+}
+.tel {
+    display: flex;
+    align-items: center;
 }
 
