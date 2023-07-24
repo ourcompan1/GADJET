@@ -14,13 +14,8 @@ ul,ol {
 a {
     text-decoration: none;
 }
-.top-info{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 .container {
-    max-width: 1180px;
+    max-width: 1980px;
     margin: 0 auto;
 }
 .tel-links{
@@ -34,14 +29,49 @@ a {
     flex-direction: column;
 }
 header{
-background: black;
+    background: black;
 }
-.logos {
-    padding: 24px;
+.header-top{
     display: flex;
+    justify-content: space-between;
 }
-.tel {
+.schedule{
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 190%;
+    text-transform: uppercase;
+}
+.tel-link{
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 190% ;
+    text-transform: uppercase;
+}
+.social-media-links {
     display: flex;
     align-items: center;
 }
+.logo-inst-link {
+    margin-left: 15px;
+}
 
+.logo {
+padding: 15px 0px;    
+}
+.tel{
+    display: flex;
+    align-items: center;
+}
+.time{
+    display: flex;
+    align-items: center;
+}
+.imgn{
+    display: flex;
+    padding:15px;
+}
