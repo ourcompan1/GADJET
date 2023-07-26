@@ -85,9 +85,9 @@ header{
 .name {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
     font-family: Nunito Sans;
     font-size: 40px;
-
     font-weight: 800;
     line-height: 250% ;
     text-transform: uppercase;
@@ -110,4 +110,90 @@ header{
     display: flex;
     margin-bottom: 15px;
     margin-right: 15px;
+}
+.bottom-info {
+   padding-top: 100px;
+}
+.mapsabout-us {display: flex;
+    max-width: 1980px;
+    margin: 0 auto;
+}
+.about-us {
+    align-self: center;
+    padding-left: 150px;
+}
+.nomer{
+    display: flex;
+    padding-bottom: 40px;
+}
+.adress{
+    display: flex;
+}
+.rezim{
+    display: flex;
+    padding-top: 40px;
+}
+.naming{
+    color: #6c66a3;
+    font-family: Nunito Sans;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 19% ;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+} 
+.description{
+    color: #000000;
+    font-family: Nunito Sans;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 19% ;
+}
+.icon{
+    padding: 15px;
+}
+.box{
+    margin-top: 10px;
+}
+.boxx{
+    margin-top: 27px;
+}
+.boxxx{
+    margin-top: 25px;
+}
+.line-footer {border: 1px solid black;
+    margin: 0 auto 16px;
+    width: 100;
+}
+.footer-name {justify-content: center;
+    display: flex;   font-family: Nunito Sans;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 190% ;
+    margin-top: 35px;
+    
+}
+.footer-deviz {justify-content: center;
+    display: flex;   font-family: Nunito Sans;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 190% ;
+    margin-top: 20px;
+}
+footer{
+padding-top: 100px;
+}
+.tel-link:hover {
+    border-bottom: 4px solid #FFF;
+}
+.description-link:hover {
+    border-bottom: 4px solid  #6c66a3 ;
+}
+.description-link{
+     color: #000000;
+    font-family: Nunito Sans;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 19% ;
 }
