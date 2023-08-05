@@ -86,45 +86,67 @@ a {
 
 
 
-.infoabout {
-    margin-top: 150px ;
-    background:#f6f6f6;
-}
-.line {border: 1px solid black;
+  .top-info{
+    padding: 5% 0;
+  }
+  .line{
+    border: 1px solid black;
+    width: 25%;
     margin: 0 auto 16px;
-    width: 50px;
-}
-.name {
+  }
+  .our-services{
+    display: flex;
+    flex-direction: column;
+    background: #f6f6f6;;
+    min-width: 320px;
+    margin: 0 auto;
+    padding-bottom:5%;
+  }
+  .img-services{
+    padding: 0 2% 2% 2%;
     display: flex;
     justify-content: center;
+   align-items: center;
+  }
+  .img-services img{
+    width: 100%;
+    height: 100%;
+  }
+  .our-services-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .our-services-top{
     margin: 0 auto;
-    font-family: Nunito Sans;
-    font-size: 40px;
-    font-weight: 800;
-    line-height: 250% ;
-    text-transform: uppercase;
-}
-
-.text {
-    font-family: Nunito Sans;
+  }
+  .name { font-family:Nunito Sans;
     font-size: 30px;
     font-weight: 800;
-    line-height: 190% ;
-    text-transform: uppercase;
-    margin-top: 50px;
-    margin-left: 15px;
-}
-.inftext{
-    display: flex;
-    padding-top: 15px;
-}
-.comp{
-    display: flex;
-    margin-bottom: 15px;
-    margin-right: 15px;
-    max-width: 100%;
-    height: auto;
-}
+    line-height: 160%;
+    padding-bottom: 7%;
+  }
+  
+  .services-text { font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 160%;
+  }
+  .services:first-child{
+    width: 40%;
+    padding-left: 2%;
+  }
+  .services:last-child{
+    width: 60%;
+  }
+  .services-list{
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+
+
+
 .bottom-info {
    padding-top: 100px;
 }
@@ -240,61 +262,93 @@ padding-top: 100px;
 .schedule { 
     font-size: calc(10px + ( 20 - 10 ) * ((100vw - 550px)  / (1200 - 550)));
     }
+    .services-text{font-size: calc(10px + ( 20 - 10 ) * ((100vw - 550px)  / (1200 - 550)));
+    }
 }
 
 
 
 
 
-
 @media ( max-width: 550px ){
-    .header{
-    display: flex;
-    flex-direction: column;
-    }
-    .schedule { 
+  .header{
+  display: flex;
+  flex-direction: column;
+  }
+  .schedule { 
+  font-size: 10px;
+  }
+  .header-tel-link{
     font-size: 10px;
-    }
-    .header-tel-link{
-      font-size: 10px;
-    }
-    .header-tel-link:hover{
-      border-bottom: 2px solid #FFF;
-    }
-    .header-logo {
-      margin: 0 auto;
-      order: 0;
-      padding-top: 3%;
-      display: block;
- 
-    }
-  .header-logo img {
-    width: 90vw;
-    }
+  }
+  .header-tel-link:hover{
+    border-bottom: 2px solid #FFF;
+  }
+  .header-logo {
+    margin: 0 auto;
+    order: 0;
+    padding-top: 3%;
+    display: block;
 
-  .social-media-links {
-    width: 20vw;
-  
   }
-  .contacts {
-    width: 33vw;
-    flex-direction: column;
-    display: flex;
-    padding-left: 8%;
+.header-logo img {
+  width: 90vw;
   }
-  .time {
-    width: 31vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 6%;
-  }
-  .header-tel-icon {
-    width: 6vw;
-  }
-  .header-clock-icon {
-    width: 6vw;
-  }
+
+.social-media-links {
+  width: 20vw;
+
+}
+.contacts {
+  width: 33vw;
+  flex-direction: column;
+  display: flex;
+  padding-left:  calc(1px + ( 85 - 1) * ((100vw - 320px) / (550 - 320)));
+  padding-bottom: 1%;
+}
+.time {
+  width: 31vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: calc(1px + ( 74 - 1) * ((100vw - 320px) / (550 - 320))); 
+  padding-bottom: 1%;
+}
+.header-tel-icon {
+  width: 6vw;
+  padding-bottom: 1%;
+}
+.header-clock-icon {
+  width: 6vw;
+  padding-bottom: 1%;
+}
+.our-services-bottom{
+  display: flex;
+  flex-direction: column;
+}
+
+.name{
+  font-size:20px;
+  padding-bottom: 5%;
+}
+.services-text{
+  font-size:13px;
+  line-height: 130%;
+}
+.our-services-bottom{
+display: flex;
+flex-direction: column-reverse;
+}
+.img-box{
+padding-bottom: 3%;
+height: calc(200px + (250 - 200) * ((100vw - 320px) / (550 - 320)));
+width: 90%;
+}
+.img-services{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
 }
 
 
